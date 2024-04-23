@@ -44,3 +44,11 @@ map({ "n", "v" }, "<leader>s", function()
     timeout_ms = 500,
   }
 end, { desc = "Format file or range (in visual mode)" })
+
+-- nvim-lint mappings
+
+local lint = require "lint"
+
+map("n", "<leader>ll", function()
+  lint.try_lint()
+end, { desc = "Trigger linting for current file" })
