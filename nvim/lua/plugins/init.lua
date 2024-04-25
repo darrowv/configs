@@ -27,6 +27,7 @@ return {
         "prettierd",
         "typescript-language-server",
         "eslint_d",
+        "tailwindcss-language-server",
       },
     },
   },
