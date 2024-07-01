@@ -5,8 +5,8 @@
 local M = {}
 
 M.ui = {
-  theme = "melange",
-  theme_toggle = { "melange", "ayu_light" },
+  theme = "everblush",
+  theme_toggle = { "everblush", "ayu_light" },
 
   telescope = { style = "bordered" },
 
